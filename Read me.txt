@@ -1,0 +1,20 @@
+pce_rs = PCE Rule Set
+pce_lf = PCE Load File
+pce_async_req = PCE Asynchronous Requests
+pce_fs = PCE Find Service
+pce_auth = PCE Authentication
+pce_ld = PCE Load Data
+
+pce_rs is the script that ties the others together.
+Start pce_rs in python console mode and run "help()"
+It will display the help menu with the script options:
+
+apply_rules() -> - logs in to PCE
+                 - compile rules from excel file
+                 - convert port/protocol to existing services
+                 - create new rules on selected ruleset
+save_login() -> - Saves the login information, except password
+save_file_info() -> - Saves Excel file name and location path. Except sheet name
+ll() -> - Load login information, except password
+lf() -> - Loads Excel file name and location path. Except sheet name
+
